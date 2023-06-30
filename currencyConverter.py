@@ -5,4 +5,8 @@ class currencyCorverter:
 
 cur = input("what currency do you want to convert? ")
 
-print("hello")
+reader = open("currencies.txt", "r")
+curList = reader.read().split("\n")
+print(curList)
+for i in range(len(curList)):
+    
