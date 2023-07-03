@@ -1,7 +1,7 @@
 from requests.models import Response
 import requests
 class currencyCorverter:
-
+ 
     def converter(self, curCur, newCur, amount):
   
       url = "https://api.exchangerate-api.com/v4/latest/" + curCur
